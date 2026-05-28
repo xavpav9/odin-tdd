@@ -1,0 +1,17 @@
+{
+  "name": "odin-tdd",
+  "version": "1.0.0",
+  "description": "TDD assignment from TOP.",
+  "license": "ISC",
+  "author": "Xavier Tondelier <xtondelier@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest *.js",
+    "watch": "jest *.js --watch"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.7",
+    "jest": "^30.4.2"
+  }
+}
