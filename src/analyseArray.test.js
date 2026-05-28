@@ -79,3 +79,8 @@ test("Invalid Array", () => {
   const arr = [1, 2, 3, "a"];
   expect(() => analyseArray(arr)).toThrow("Invalid array");
 });
+
+test("Not an Array", () => {
+  const arr = 5;
+  expect(() => analyseArray(arr)).toThrow("Not an array");
+});

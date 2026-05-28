@@ -1,4 +1,6 @@
 function analyseArray(arr) {
+  if (!Array.isArray(arr)) throw Error("Not an array");
+
   const length = arr.length;
   let average = 0;
   let min = Infinity;
